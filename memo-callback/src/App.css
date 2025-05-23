@@ -1,0 +1,81 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.counter-section,
+.profile-section,
+.products-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.counter-section button,
+.fetch-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 5px;
+}
+
+.counter-section button:hover,
+.fetch-button:hover {
+  background-color: #0056b3;
+}
+
+.profile {
+  background-color: #e7f3ff;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #b3d9ff;
+}
+
+.product-list {
+  background-color: #f0f8f0;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #c3e6c3;
+}
+
+.products {
+  margin-top: 1rem;
+}
+
+.products ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.products li {
+  background-color: white;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+h3, h4 {
+  color: #666;
+}
